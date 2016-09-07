@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery.js"></script>
+        <script src="scripts.js"></script>
+        <title>Pierwsza strona</title>
+    </head>
+    <body>
+        <!-- Nagłówek strony -->
+       <header class="top"> 
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">LOGO</a>
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li><a href="#start">Start</a></li>
+                        <li><a href="#oferta"> Oferta</a></li>
+                        <li><a href="#promocje"> Promocje</a></li>
+                        <li><a href="#kontakt"> Kontakt</a></li>
+                    </ul>
+                </div>
+           </div>
+        </header>
+        
+       <!--Baner-->
+        <a  name = "start"></a>
+        <section class="banner">
+            <div class="container center-text">
+                <h1>Najlepsza restauracja<br>
+                    w mieście</h1>
+                <p>Lorem ipsum dolor sit amet</p>  
+                <a href="index.html" class="button button-light">Sprawdź menu</a>
+            </div>
+        </section>
+        <!-- Zalety oferty -->
+        
+         <a  name = "oferta"></a>
+        <section class="intro">
+            <div class="container">
+                <h2 class="center-text">Dlaczego warto nas wybrać</h2>
+                <div class="col-one-third center-text">
+                    <img src="img/ikona_1.png" alt="Ikona 1">
+                    <h3>Najlepsze jedzenie</h3>
+                    <p>nescius quamquam quem officia litteris ita illustriora familiaritatem appellat 
+                    malis familiaritatem nisi quo enim quem nisi reprehenderit quid </p>
+                </div>
+                <div class="col-one-third center-text">
+                <img src="img/ikona_2.png" alt="Ikona 2">
+                <h3>Światowej klasy kucharze</h3>
+                    <p>mandaremus laborum arbitrantur iudicem o mandaremus minim esse graviterque</p>
+                </div>
+                <div class="col-one-third center-text">
+                <img src="img/ikona_3.png" alt="Ikona 3">
+                <h3>Organizacja imprez</h3>
+                    <p>familiaritatem arbitrantur minim expetendis malis offendit labore incididunt ab </p>
+                </div>            
+            </div>
+        </section>
+        
+        <!-- Promocje -->
+        <a  name = "promocje"></a>
+        <section class="promo">
+
+            <div class="container">
+                <div class="col-half">
+                    <img src="img/dekor.png" alt="Dekor">
+                </div>
+                <div class="col-half">
+                    <h2>Skorzystaj z naszych promocji</h2>
+                    <p>enim quid exquisitaque adipisicing arbitror anim illustriora domesticarum 
+                        philosophari se dolore legam officia id</p>
+                </div>
+            </div>    
+        </section>
+        
+        <!-- Kontakt -->
+        <a  name = "kontakt"></a>
+        <section class="contact">
+            <div class="container">
+                <h2 class="center-text">Skontaktuj się z nami</h2>
+                <div class="col-half">
+                    <form action="">
+                        <label for="name">
+                            <strong>Imię i nazwisko</strong>
+                        </label><br>
+                        <input type="text" name="name" id="name"><br>
+                        <label for="email">
+                            <strong>Email</strong>         
+                        </label><br>
+                        <input type="text" name="email" id="email"><br>
+                        <label for="password">
+                            <strong>Hasło</strong>
+                        </label><br>
+                        <input type="password" name="password" id="password"><br>
+                        <button type="submit" class="button-dark button" id="login">Zaloguj</button>
+                    </form>
+                </div>
+                <div class="col-half" id="contact-right">
+                    <h4>Znajdź nas</h4>
+                    <img src="img/mapa.jpg" alt="Mapa">
+                </div>
+            </div>   
+        </section>
+        
+        <!-- Stopka strony -->
+        <footer class="site-footer">
+            <div class="container">
+                <p>&copy; Mateusz Korzybski 2016</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
